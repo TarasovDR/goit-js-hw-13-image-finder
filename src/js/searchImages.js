@@ -41,7 +41,6 @@ const clearImageList = () => {
 
 const imageListMarkup = data => {
   const contriesArr = data.length;
-  console.log(contriesArr);
   if (contriesArr === 0) {
     loadMoreBtn.hide();
     error({
